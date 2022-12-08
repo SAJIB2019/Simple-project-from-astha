@@ -1,42 +1,14 @@
 <script>
-
+import "../app.css";
 </script>
-<div class="shop">
+<div class="w-full bg-[url('/bg.jpg')] h-[450px] bg-fixed">
     <div class="container">
-        <div class="shop__text">
-            <h1>Free Delivery With PIZZA OF DAY only 8.00 USD</h1>
-            <div class="shop__btn">
-                <a href="" class="btn btn__smart">Shop Now</a>
+        <div class="h-[450px] flex flex-col items-center w-[500px] justify-center my-0 mx-auto text-white">
+            <h1 class="text-[40px] lining-3">Free Delivery With PIZZA OF DAY only 8.00 USD</h1>
+            <div class="mt-8">
+                <a href="/" class="btn  hover:bg-red-700 transition duration-300">Shop Now</a>
             </div>
         </div>
     </div>
 </div>
 
-<style>
-    .shop{
-        width: 100%;
-        background: url(/bg.jpg);
-        height: 450px;
-        background-attachment: fixed;
-    }
-    .shop__text{
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 500px;
-        justify-content: center;
-        margin: 0 auto;
-        color: white;
-    }
-    .shop__text h1{
-        font-size: 40px;
-        line-height: 60px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: 0.5px;
-    }
-    .shop__btn{
-        margin-top: 35px;
-    }
-</style>

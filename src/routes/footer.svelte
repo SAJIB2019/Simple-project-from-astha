@@ -1,73 +1,32 @@
 <script>
-
+import "../app.css";
 </script>
 
-<div class="footer">
+<div class="py-10 bg-[#db997b] dark:bg-[#e77a1f]">
     <div class="container">
-        <div class="footer__text">
-            <div class="usefull__links">
-                <h2>USEFULL LINKS</h2>
+        <div class="sm:flex justify-around">
+            <div class="flex flex-col items-center justify-center mb-8">
+                <h2 class="text-grey-700 tracking-wider mb-2 text-3xl">USEFULL LINKS</h2>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">News</a></li>
+                    <li><a href="/" class="text-white text-[20px]" >Home</a></li>
+                    <li><a href="/" class="text-white text-[20px]" >About</a></li>
+                    <li><a href="/" class="text-white text-[20px]" >Menu</a></li>
+                    <li><a href="/" class="text-white text-[20px]" >News</a></li>
                     
                 </ul>
             </div>
-            <div class="news__letter">
-                <h2>NEWSLETTER</h2>
-                <input type="text">
-                <a href="" class="btn btn__smart">Subscribe Now</a>
+            <div class="flex flex-col items-center mb-8">
+                <h2 class="text-3xl tracking-wider text-grey-700">NEWSLETTER</h2>
+                <input placeholder="Text here" type="text" class="px-10 py-2 rounded-md m-3">
+                <a href="/" class="btn mt-5  hover:bg-red-700 transition duration-300">Subscribe Now</a>
             </div>
-            <div class="contact">
-                <h2>CONTACT</h2>
-                <p>123, xyz Road, Dhaka</p>
-                <p>Bangladesh</p>
+            <div class="flex items-center flex-col">
+                <h2 class="text-grey-700 tracking-wider text-3xl pb-3">CONTACT</h2>
+                <p class="text-white text-[18px]">123, xyz Road, Dhaka</p>
+                <p class="text-white text-[22px]">Bangladesh</p>
             </div>
         </div>
     </div>
 </div>
 
-<style>
-    .footer{
-        padding: 80px 0px;
-        background-color: rgb(177, 163, 143);
-    }
-    .footer__text{
-        display: flex;
-        justify-content: space-around;
-       
-    }
-    .news__letter{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .usefull__links h2{
-        color: white;
-        margin-bottom: 8px;
-    }
-    .usefull__links ul{
-        list-style-type: none;
-    }
-    .usefull__links ul li a{
-        text-decoration: none;
-        margin-top: 5px;
-        color: #282828;
-      
-    }
-    .news__letter h2{
-        color: white;
-        margin-bottom: 8px;
-    }
-    .contact h2{
-        color: white;
-        margin-bottom: 8px;
-        color: #282828;
-    }
-    .news__letter input{
-        margin-bottom: 18px;
-        padding: 5px 30px;
-    }
-</style>
+

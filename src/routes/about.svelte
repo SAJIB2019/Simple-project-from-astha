@@ -1,15 +1,15 @@
 <script>
-
+import "../app.css";
 </script>
-<div class="about">
+<div class="py-10 bg-[#faebd7] dark:bg-[#122033] ">
     <div class="container">
-        <div class="row">
-           <div class="col__6 p__25">
-                <h3>About Us</h3>
-                <h1>WELCOME TO MAESTRO PIZZINI</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque porro sequi fugiat! Exercitationem, quas doloremque dolor aperiam adipisci eligendi.</p>
-                <div class="about__btn">
-                    <a href="" class="btn btn__smart">Read More</a>
+        <div class="sm:flex">
+           <div class="flex flex-col p-10 sm:items-start items-center text-justify">
+                <h3 class="text-xl dark:text-white text-grey">About Us</h3>
+                <h1 class="my-2 text-bold text-2xl dark:text-white text-[#252525]">WELCOME TO MAESTRO PIZZINI</h1>
+                <p class="text-grey dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque porro sequi fugiat! Exercitationem, quas doloremque dolor aperiam adipisci eligendi.</p>
+                <div class="mt-10">
+                    <a href="/" class="btn hover:bg-red-700 transition duration-300">Read More</a>
                </div> 
             </div>
 
@@ -21,44 +21,5 @@
         </div>
     </div>
 </div>
-<style>
-    .about{
-        padding: 80px 0px;
-        background-color: antiquewhite;
-    }
-    .p__25{
-        padding: 45px;
-    }
-    .row{
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .col__6{
-        width: 50%;
-    }
-    .about h3{
-        color: rgba(37, 37, 37, 0.7);
-        margin-bottom: 12px;
-        font-weight: 700;
-    }
-    .about h1{
-        font-size: 40px;
-        color: #252525;
-        font-weight: 700;
-        line-height: 40px;
-        margin-bottom: 15px;
-    }
-    .about__btn{
-        margin-top: 45px;
-    }
-    .about p {
-        font-size: 18px;
-        color: #8b8b8b;
-        font-weight: 300;
-    }
-    .about__img img{
-        width: 100%;
-    }
-</style>
+
 

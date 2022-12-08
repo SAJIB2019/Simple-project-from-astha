@@ -6,6 +6,7 @@
 	import Shop from "./shop.svelte";
 	import Menu from "./menu.svelte";
 	import Footer from "./footer.svelte";
+  import "../app.css";
 </script>
 
 <div class="index">
@@ -15,7 +16,3 @@
   <Menu />
   <Footer />
 </div>
-<style>
-
-
-</style>
