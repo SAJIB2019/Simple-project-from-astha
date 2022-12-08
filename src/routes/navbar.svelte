@@ -3,7 +3,7 @@ import "../app.css";
 let isOpen = false;
 </script>
 
-<div class=" bg-[#c33600] sm:fixed w-screen">
+<div class=" bg-[#c33600] fixed sm:fixed w-screen">
     <div class="container">
         <div class="flex items-center justify-between sm:justify-between">
                 <div class="flex bg-black sm:bg-transparent justify-center items-center">
