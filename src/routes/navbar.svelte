@@ -32,8 +32,8 @@ let isOpen = false;
 
                 <div class="pt-5 sm:hidden  flex items-center justify-center">
                     <button on:click = {()=>isOpen = !isOpen}  class="border-white rounded-[5px] mb-8 bg-black border-2 m-[1px] h-10 w-10 flex flex-col justify-center items-center ">
-                        <div class="bg-white m-1 h-[2px] w-5"></div>
-                        <div class="bg-white m-1 h-[2px] w-5"></div>
+                        <div class="bg-white dark:bg-white m-1 h-[2px] w-5"></div>
+                        <div class="bg-white dark:bg-white m-1 h-[2px] w-5"></div>
                     </button>
                 </div> 
         </div>                                                               
