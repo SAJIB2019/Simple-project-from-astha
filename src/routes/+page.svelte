@@ -7,6 +7,7 @@
 	import Menu from "./menu.svelte";
 	import Footer from "./footer.svelte";
   import "../app.css";
+	import CopyRight from "./copyRight.svelte";
 </script>
 
 <div class="index">
@@ -15,4 +16,5 @@
   <Shop />
   <Menu />
   <Footer />
+  <CopyRight />
 </div>

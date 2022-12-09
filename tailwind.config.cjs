@@ -3,7 +3,12 @@ module.exports = {
     content: ['./src/**/*.{svelte,html,js,ts}'],
     darkMode: 'media',
     theme: {
-        extend: {}
+        extend: {
+            fontFamily: {
+                lora: "'Lora',serif",
+                dm: "'DM Mono',monospace"
+            }
+        }
     },
     plugins: []
 };

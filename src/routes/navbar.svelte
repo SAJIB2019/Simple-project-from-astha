@@ -3,29 +3,29 @@ import "../app.css";
 let isOpen = false;
 </script>
 
-<div class=" bg-[#c33600] fixed sm:fixed w-screen">
+<div class=" bg-[#b31c09] fixed sm:fixed w-screen drop-shadow-[0_20px_20px_rgba(255,255,258,0.55)]">
     <div class="container">
-        <div class="flex items-center justify-between sm:justify-between">
+        <div class="flex items-center justify-between px-4 sm:px-0 sm:justify-between">
                 <div class="flex bg-black sm:bg-transparent justify-center items-center">
                     <img class="w-[150px] h-[50px]" src="/logo.png" alt="logo">
                 </div>
 
                 <div class="">      
-                    <ul class="{isOpen ? "block" : "hidden"} sm:top-0 top-[82px] sm:z-auto sm:pl-0 pl-7 sm:py-0 py-6 w-full left-0 sm:bg-transparent bg-[#c33600] sm:static absolute sm:items-center sm:flex">
+                    <ul class="{isOpen ? "block" : "hidden"} sm:top-0 top-[82px] sm:z-auto sm:pl-0 pl-7 sm:py-0 py-6 w-full left-0 sm:bg-transparent bg-[#b31c09] sm:static absolute sm:items-center sm:flex">
                         <li class="sm:mx-10">
-                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl" href="/">Home</a>
+                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl font-lora italic hover:text-white" href="/">Home</a>
                         </li>
                         <li class="sm:mx-10">
-                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl" href="/">Menu</a>
+                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl font-lora italic hover:text-white" href="/">Menu</a>
                         </li>
                         <li class="sm:mx-10">
-                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl" href="/">Shop</a>
+                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl font-lora italic hover:text-white" href="/">Shop</a>
                         </li>
                         <li class="sm:mx-10">
-                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl" href="/">News</a>
+                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl font-lora italic hover:text-white" href="/">News</a>
                         </li>
                         <li class="sm:mx-10">
-                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl" href="/">Contact</a>
+                            <a class="sm:mx-4 font-bold sm:text-2xl text-3xl font-lora italic hover:text-white" href="/">Contact</a>
                         </li>
                     </ul>
                 </div>
